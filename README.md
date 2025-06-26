@@ -14,7 +14,7 @@ A fully on-chain decentralized marketplace built on the [Sui blockchain](https:/
 
 
 ## 📁 Project Structure
-
+```
 .
 ├── move/
 │ ├── widget.move # NFT definition and minting logic
