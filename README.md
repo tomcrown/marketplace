@@ -26,12 +26,12 @@ A fully on-chain decentralized marketplace built on the [Sui blockchain](https:/
 │ ├── withdraw.ts # Withdraws seller profits
 │ └── utils.ts # Helper functions 
 └── README.md # Project documentation
-
+```
 
 ---
 
 💻 Scripts
-All scripts live in the scripts/ folder and use the @mysten/sui.js SDK.
+```All scripts live in the scripts/ folder and use the @mysten/sui.js SDK.
 
 create.ts
 Mint a new Widget NFT.
@@ -47,8 +47,9 @@ Withdraw your earnings from the Marketplace balance.
 
 utils.ts
 Contains shared helpers for selecting coin objects, signing transactions, or loading configuration.
-
+```
 📦 Move Modules Overview
+```
 widget.move
 struct Widget { id, name, level }
 
