@@ -1,8 +1,5 @@
 import { TransactionBlock } from '@mysten/sui.js/transactions';
-import { client, keyPair } from './utils';
-
-const PACKAGE_ID = '0x20b8cdb92dd81dea084c8f1122cd856b0a5485d7db97c62509ef3834bfdcbe35';
-const MODULE_NAME = 'marketplace';
+import { client, keyPair, PACKAGE_ID, MODULE_NAME } from './utils';
 
 async function callCreateMarketplace() {
     const tx = new TransactionBlock();
